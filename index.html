@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic JavaScript and HTML Test</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-0-768.css">
+</head>
+<body>
+<div class="app">
+    <h2>Test</h2>
+    <div class="input-wrap">
+        <div>
+            <label for="NameValuePair">Name/Value Pair</label>
+            <input type="text" id="NameValuePair" name="NameValuePair" required>
+            <div id="error"></div>
+        </div>
+        <button id="addBtn">Add</button>
+    </div>
+    <div>
+        <h3>Name/Value Pair List</h3>
+        <div class="list-wrap">
+            <ul id="listContainer"></ul>
+            <div class="btns-wrap">
+                <button id="sortByNameBtn">Sort by Name</button>
+                <button id="sortByValueBtn">Sort by Value</button>
+                <button id="delBtn">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script/main.js"></script>
+</body>
+</html>
+
